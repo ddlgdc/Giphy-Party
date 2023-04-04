@@ -1,0 +1,31 @@
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.imgContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    height: 280px;
+    width: 300px;
+}
+
+#textBox{
+    text-align: center;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+#submitBox, #removeBox{
+    margin-bottom: 10px;
+}
